@@ -5,10 +5,25 @@
   --heading-font: "Playfair Display", serif;
   --main-font: "Poppins", sans-serif;
 }
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  color: black;
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  font-family: var(--main-font);
+  color: var(--third-color);
+  font-weight: 400;
 }
 .hero p {
   font-family: var(--main-font);
@@ -19,19 +34,15 @@
   margin: 0;
 }
 h1 {
-  font-family: var(--heading-font);
-  color: black;
-  font-weight: 700;
   font-size: 96px;
 }
-h2 {
+.hero h2 {
   font-family: var(--main-font);
   color: var(--third-color);
   font-weight: 400;
   font-size: 24px;
   line-height: 1;
 }
-
 .hero .btn-branding {
   background: var(--secondary-color);
   font-family: var(--main-font);
@@ -39,4 +50,31 @@ h2 {
   font-weight: 500;
   color: white;
   padding: 18px 30px;
+}
+.page-break {
+  font-family: var(--main-font);
+  color: var(--third-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.project-description {
+  font-size: 16px;
+  opacity: 70%;
+  line-height: 30px;
+}
+.project-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  background: transparent;
+  color: var(--secondary-color);
+  border: solid 1px var(--secondary-color);
+  padding: 18px 30px;
+}
+.row {
+  margin-bottom: 70px;
 }
