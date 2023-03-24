@@ -79,3 +79,29 @@ img {
 .row {
   margin-bottom: 70px;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    line-height: 1.5;
+  }
+  .hero p {
+    margin-bottom: 10px;
+  }
+  img {
+    display: none;
+  }
+  .row {
+    margin: 0;
+  }
+  .page-break {
+    margin-bottom: 0;
+  }
+  .col-info {
+    text-align: center;
+  }
+}
