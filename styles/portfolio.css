@@ -36,6 +36,9 @@ p {
 h1 {
   font-size: 96px;
 }
+.about-heading {
+  font-size: 64px;
+}
 .hero h2 {
   font-family: var(--main-font);
   color: var(--third-color);
@@ -43,7 +46,7 @@ h1 {
   font-size: 24px;
   line-height: 1;
 }
-.hero .btn-branding {
+.btn-branding {
   background: var(--secondary-color);
   font-family: var(--main-font);
   font-size: 18px;
@@ -62,7 +65,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-.project-description {
+.img-about {
+  border-radius: 20px;
+}
+.project-description,
+.about-description {
   font-size: 16px;
   opacity: 70%;
   line-height: 30px;
@@ -79,6 +86,17 @@ img {
 .row {
   margin-bottom: 70px;
 }
+.about-subheading {
+  font-family: var(--main-font);
+  color: var(--third-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.about-description {
+  margin-bottom: 50px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 80px;
@@ -92,7 +110,7 @@ img {
   .hero p {
     margin-bottom: 10px;
   }
-  img {
+  .img-homepage {
     display: none;
   }
   .row {
