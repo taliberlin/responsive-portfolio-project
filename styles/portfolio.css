@@ -54,6 +54,10 @@ h1 {
   color: white;
   padding: 18px 30px;
 }
+.btn-branding:hover {
+  background: var(--secondary-color);
+  box-shadow: 4px 4px 8px #3731b115;
+}
 .page-break {
   font-family: var(--main-font);
   color: var(--third-color);
@@ -83,7 +87,13 @@ img {
   border: solid 1px var(--secondary-color);
   padding: 18px 30px;
 }
+.project-btn:hover {
+  border: solid 1px #3731b1;
+  color: #3731b1;
+  box-shadow: 4px 4px 8px #3731b115;
+}
 .row {
+  margin-top: 70px;
   margin-bottom: 70px;
 }
 .about-subheading {
@@ -91,12 +101,13 @@ img {
   color: var(--third-color);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .about-description {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
+
 @media (max-width: 600px) {
   h1 {
     font-size: 80px;
