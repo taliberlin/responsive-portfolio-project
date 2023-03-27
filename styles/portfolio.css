@@ -36,7 +36,8 @@ p {
 h1 {
   font-size: 96px;
 }
-.about-heading {
+.about-heading,
+.contact-heading {
   font-size: 64px;
 }
 .hero h2 {
