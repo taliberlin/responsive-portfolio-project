@@ -133,4 +133,9 @@ img {
   .col-info {
     text-align: center;
   }
+  .img-about {
+    position: relative;
+    top: 15px;
+    margin-bottom: 50px;
+  }
 }
