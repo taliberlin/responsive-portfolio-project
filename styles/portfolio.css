@@ -69,7 +69,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-.img-about {
+.img-about,
+.img-workpage {
   border-radius: 20px;
 }
 .project-description,
@@ -113,10 +114,15 @@ img {
 .workpage-project-names {
   font-family: var(--main-font);
   font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 9px;
 }
 .workpage-project-subheadings {
   font-size: 14px;
   opacity: 70%;
+}
+.workpage-main-body {
+  padding: 40px;
 }
 
 @media (max-width: 600px) {
@@ -148,5 +154,13 @@ img {
     position: relative;
     top: 15px;
     margin-bottom: 50px;
+  }
+  .workpage-heading {
+    font-size: 43px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .workpage-project-columns {
+    margin-bottom: 30px;
   }
 }
