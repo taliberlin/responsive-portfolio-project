@@ -107,6 +107,17 @@ img {
 .about-description {
   margin-bottom: 40px;
 }
+.workpage-heading {
+  font-size: 64px;
+}
+.workpage-project-names {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
+.workpage-project-subheadings {
+  font-size: 14px;
+  opacity: 70%;
+}
 
 @media (max-width: 600px) {
   h1 {
