@@ -142,6 +142,7 @@ img {
     font-size: 50px;
   }
   .hero h2 {
+    margin: auto 2px;
     line-height: 1.5;
   }
   .hero p {
@@ -154,7 +155,7 @@ img {
     margin: 0;
   }
   .page-break {
-    margin-bottom: 0;
+    margin-bottom: 43px;
   }
   .col-info {
     text-align: center;
@@ -164,6 +165,9 @@ img {
     top: 15px;
     margin-bottom: 50px;
   }
+  .about-heading {
+    font-size: 55px;
+  }
   .workpage-heading {
     font-size: 43px;
     margin-bottom: 50px;
@@ -171,5 +175,36 @@ img {
   }
   .workpage-project-columns {
     margin-bottom: 30px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1050px) {
+  .col-info {
+    margin: 0 !important;
+    padding: 0px !important;
+    padding-left: 10px !important;
+  }
+  .img-homepage {
+    height: 390px;
+  }
+  .col-info h2 {
+    font-size: 50px;
+  }
+  .project-btn {
+    font-size: 13px;
+    padding: 15px 26px;
+  }
+  .project-description {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+  .about-column {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-right: 5px !important;
+    position: relative;
+    bottom: 14px;
+  }
+  .about-heading {
+    font-size: 57px;
   }
 }
