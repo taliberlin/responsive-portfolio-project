@@ -58,6 +58,7 @@ h1 {
 .btn-branding:hover {
   background: var(--secondary-color);
   box-shadow: 4px 4px 8px #3731b115;
+  transition: all 200ms ease-in-out;
 }
 .page-break {
   font-family: var(--main-font);
@@ -124,6 +125,13 @@ img {
 }
 .workpage-main-body {
   padding: 40px;
+}
+.logo {
+  max-width: 150px;
+}
+.nav-link:hover,
+.active {
+  color: var(--secondary-color) !important;
 }
 
 @media (max-width: 600px) {
