@@ -47,7 +47,8 @@ h1 {
   font-size: 24px;
   line-height: 1;
 }
-.btn-branding {
+.btn-branding,
+.btn-mail {
   background: var(--secondary-color);
   font-family: var(--main-font);
   font-size: 18px;
@@ -55,7 +56,8 @@ h1 {
   color: white;
   padding: 18px 30px;
 }
-.btn-branding:hover {
+.btn-branding:hover,
+.btn-mail:hover {
   background: var(--secondary-color);
   box-shadow: 4px 4px 8px #3731b115;
   transition: all 200ms ease-in-out;
@@ -132,6 +134,18 @@ img {
 .nav-link:hover,
 .active {
   color: var(--secondary-color) !important;
+}
+.work-inquiry {
+  background: var(--branding-color);
+  border-radius: 20px;
+}
+.inquiry-description h3 {
+  font-size: 48px;
+}
+.inquiry-description p {
+  font-size: 18px;
+  opacity: 70%;
+  line-height: 5;
 }
 
 @media (max-width: 600px) {
