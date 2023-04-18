@@ -161,11 +161,8 @@ img {
   opacity: 70%;
 }
 .inquiry-button {
-  padding: 65px;
-}
-.btn-mail {
-  margin-left: 175px;
-  margin-top: 17px;
+  padding-top: 78px;
+  padding-left: 220px;
 }
 .email {
   font-weight: 500;
@@ -191,17 +188,18 @@ img {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
   h2 {
     font-size: 50px;
   }
   .hero h2 {
+    font-size: 22px;
     margin: auto 2px;
     line-height: 1.5;
   }
   .hero p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .img-homepage {
     display: none;
@@ -230,6 +228,33 @@ img {
   }
   .workpage-project-columns {
     margin-bottom: 30px;
+  }
+  .homepage-main-block {
+    margin-bottom: 75px;
+  }
+  .work-inquiry {
+    background: var(--branding-color);
+    border-radius: 20px;
+    max-width: 88%;
+    margin-bottom: 65px;
+  }
+  .inquiry-description {
+    padding: 20px 40px;
+    margin-top: 15px;
+  }
+  .inquiry-button {
+    padding-top: 0;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+  .socials {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .contact-heading {
+    margin-left: 50px;
   }
 }
 @media (min-width: 601px) and (max-width: 1050px) {
@@ -261,5 +286,9 @@ img {
   }
   .about-heading {
     font-size: 57px;
+  }
+  .inquiry-button {
+    padding-top: 120px;
+    padding-left: 85px;
   }
 }
