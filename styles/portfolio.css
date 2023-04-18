@@ -40,6 +40,9 @@ h1 {
 .contact-heading {
   font-size: 64px;
 }
+.contact-heading {
+  margin: 100px;
+}
 .hero h2 {
   font-family: var(--main-font);
   color: var(--third-color);
@@ -101,6 +104,9 @@ img {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+.homepage-main-block {
+  margin-bottom: 180px;
+}
 .about-subheading {
   font-family: var(--main-font);
   color: var(--third-color);
@@ -127,6 +133,7 @@ img {
 }
 .workpage-main-body {
   padding: 40px;
+  padding-bottom: 10px;
 }
 .logo {
   max-width: 150px;
@@ -138,16 +145,50 @@ img {
 .work-inquiry {
   background: var(--branding-color);
   border-radius: 20px;
+  max-width: 88%;
+  margin-top: 50px;
+}
+.inquiry-description {
+  padding: 40px 100px;
+  margin-top: 15px;
 }
 .inquiry-description h3 {
   font-size: 48px;
+  margin-bottom: 30px;
 }
 .inquiry-description p {
   font-size: 18px;
   opacity: 70%;
-  line-height: 5;
 }
-
+.inquiry-button {
+  padding: 65px;
+}
+.btn-mail {
+  margin-left: 175px;
+  margin-top: 17px;
+}
+.email {
+  font-weight: 500;
+  font-size: 24px;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 15%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.socials li {
+  background: var(--branding-color);
+}
+.socials a {
+  color: var(--secondary-color);
+}
+.socials a:hover {
+  color: var(--third-color);
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 80px;
