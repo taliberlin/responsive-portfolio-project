@@ -229,6 +229,9 @@ img {
   .col-info {
     text-align: center;
   }
+  .about-column {
+    text-align: center;
+  }
   .img-about {
     position: relative;
     top: 15px;
@@ -250,6 +253,7 @@ img {
   }
   .work-inquiry {
     background: var(--branding-color);
+    text-align: center;
     max-width: 88%;
     margin-bottom: 65px;
   }
@@ -269,7 +273,7 @@ img {
     padding: 0;
   }
   .contact-heading {
-    margin-left: 50px;
+    text-align: center;
   }
   .coded-by {
     margin-left: 10px;
