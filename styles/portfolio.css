@@ -186,6 +186,16 @@ img {
 .socials a:hover {
   color: var(--third-color);
 }
+.coded-by {
+  margin: 30px auto;
+}
+.git-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.git-link:hover {
+  color: var(--third-color);
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 70px;
