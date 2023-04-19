@@ -144,9 +144,9 @@ img {
 }
 .work-inquiry {
   background: var(--branding-color);
-  border-radius: 20px;
+  border-radius: 10px;
   max-width: 88%;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .inquiry-description {
   padding: 20px 100px;
@@ -187,13 +187,14 @@ img {
   color: var(--third-color);
 }
 .coded-by {
-  margin: 30px auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.git-link {
+.gitHub-link {
   color: var(--secondary-color);
   text-decoration: none;
 }
-.git-link:hover {
+.gitHub-link:hover {
   color: var(--third-color);
 }
 @media (max-width: 600px) {
@@ -244,7 +245,6 @@ img {
   }
   .work-inquiry {
     background: var(--branding-color);
-    border-radius: 20px;
     max-width: 88%;
     margin-bottom: 65px;
   }
@@ -265,6 +265,10 @@ img {
   }
   .contact-heading {
     margin-left: 50px;
+  }
+  .coded-by {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 @media (min-width: 601px) and (max-width: 1050px) {
@@ -300,5 +304,8 @@ img {
   .inquiry-button {
     padding-top: 120px;
     padding-left: 85px;
+  }
+  .homepage-main-block {
+    margin-bottom: 120px;
   }
 }
