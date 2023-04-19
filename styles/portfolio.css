@@ -165,8 +165,13 @@ img {
   padding-left: 220px;
 }
 .email {
+  color: var(--secondary-color);
+  text-decoration: none;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 23px;
+}
+.email:hover {
+  color: var(--third-color);
 }
 .socials {
   list-style-type: none;
